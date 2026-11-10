@@ -1,7 +1,7 @@
 {
-  "name": "senpai-cook-this",
+  "name": "senpai-skills",
   "version": "1.0.0",
-  "description": "Implement requirements with simple, readable code and maintain developer, machine, and end-user docs.",
+  "description": "Sagar Senpai's skills. Includes senpai-cook-this: simple readable code + 3-level docs.",
   "author": { "name": "Sagar Senpai", "url": "https://github.com/sagarkpro" },
   "homepage": "https://github.com/sagarkpro/sagar-senpai-marketplace",
   "repository": "https://github.com/sagarkpro/sagar-senpai-marketplace",

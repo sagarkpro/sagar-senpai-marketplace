@@ -40,3 +40,20 @@ Ask the user questions (why, business side) when it improves doc accuracy and re
 
 - No Git operations (commit, push, merge, rebase, etc.) unless explicitly instructed; user normally does them.
 - If instructed, state the potential impact first, especially for destructive/irreversible operations.
+
+## Closing Message
+
+After all implementation and docs are done, end your final reply with one short, funny "cooked" line. Pick a random one each time (vary it, don't repeat the same one back-to-back). Put it on its own line at the very end. Tailor it to what was built when it's easy. Examples:
+
+- 🍳 You are cooked.
+- 🍳 This feature is cooked.
+- 🍳 We cooked this one.
+- 🍳 Chef's kiss. Served hot.
+- 🍳 Cooked, plated, and ready to ship.
+- 🍳 That's a wrap, it's cooked.
+- 🍳 Another one off the grill.
+- 🍳 Fully cooked. No slop served today.
+- 🍳 Medium-rare perfection. Cooked.
+- 🍳 Kitchen's closed. This one's cooked.
+
+Invent new ones in the same spirit too — keep it one line, kitchen/cooking themed, with the 🍳 emoji.

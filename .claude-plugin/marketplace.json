@@ -4,9 +4,9 @@
   "metadata": { "description": "Skills by Sagar Senpai", "version": "1.0.0" },
   "plugins": [
     {
-      "name": "senpai-cook-this",
-      "source": "./plugins/senpai-cook-this",
-      "description": "Implement requirements with simple, readable code and maintain developer, machine, and end-user docs.",
+      "name": "senpai-skills",
+      "source": "./plugins/senpai-skills",
+      "description": "Sagar Senpai's skills. Includes senpai-cook-this: simple readable code + 3-level docs.",
       "version": "1.0.0",
       "author": { "name": "Sagar Senpai", "url": "https://github.com/sagarkpro" },
       "category": "productivity"
