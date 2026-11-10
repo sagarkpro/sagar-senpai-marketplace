@@ -1,0 +1,15 @@
+{
+  "name": "hisoka-senpai-marketplace",
+  "owner": { "name": "Sagar Senpai", "url": "https://github.com/sagarkpro" },
+  "metadata": { "description": "Skills by Sagar Senpai", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "senpai-cook-this",
+      "source": "./plugins/senpai-cook-this",
+      "description": "Implement requirements with simple, readable code and maintain developer, machine, and end-user docs.",
+      "version": "1.0.0",
+      "author": { "name": "Sagar Senpai", "url": "https://github.com/sagarkpro" },
+      "category": "productivity"
+    }
+  ]
+}
