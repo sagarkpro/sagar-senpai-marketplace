@@ -1,18 +1,22 @@
 ---
 name: senpai-cook-this
-description: Implement user requirements with simple, readable code rules and maintain 3-level docs (developer md, machine md, end-user html) with changelogs in /docs.
+description: Implement user requirements with simple, readable code rules and maintain 3-level docs (developer md, machine md, end-user html) with changelogs in /docs (API repos only).
 ---
 
-Implement the user's requirements, then do one extra step: maintain docs at 3 levels.
+Implement the user's requirements, then, in API repos, maintain docs at 3 levels (see Docs).
 
 ## Docs
+
+Docs are for the API repo only. Skip docs in a UI-only repo.
+Exception: write docs when the UI repo is also the API, e.g. a monorepo containing the backend, or a Next.js (or similar) app with a real backend implementation. A UI whose server routes only proxy to a separate API counts as UI-only.
 
 1. **Developer doc (md):** features, business side, WHY it's done, high-level technical details. Include a detailed reference-by-section for impact analysis when modifying a feature.
 2. **Machine doc (md):** deep file references, what's done, how it works, why. Code-heavy.
 3. **End-user guide (html):** examples, beautiful, minimal.
 
 Modifying an existing feature: update the existing docs and add a changelog to all 3 (what it was before, what changed, why). Choose versioning per doc yourself.
-Ask the user questions (why, business side) when it improves doc accuracy and reduces slop. Docs should generally live in repo’s /docs folder unless explicitly mentioned.
+Ask the user questions (why, business side) when it improves doc accuracy and reduces slop.
+Docs should generally live in repo’s /docs folder unless explicitly mentioned.
 
 ## Generic Coding Rules (UI + API)
 
