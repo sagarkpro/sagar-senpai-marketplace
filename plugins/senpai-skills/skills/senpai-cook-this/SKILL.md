@@ -17,6 +17,7 @@ Exception: write docs when the UI repo is also the API, e.g. a monorepo containi
 Modifying an existing feature: update the existing docs and add a changelog to all 3 (what it was before, what changed, why). Choose versioning per doc yourself.
 Ask the user questions (why, business side) when it improves doc accuracy and reduces slop.
 Docs should generally live in repo’s /docs folder unless explicitly mentioned.
+Put all 3 docs for a feature in their own kebab-case folder under /docs (e.g. hold booking flow → /docs/hold-booking/), not directly in /docs root. When modifying a feature, update the docs in its existing folder.
 
 ## Generic Coding Rules (UI + API)
 

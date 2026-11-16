@@ -109,6 +109,8 @@ Every feature deserves documentation. Not just a random README that nobody reads
 | Machine Docs (`.md`) | AI / Coding Agents | Deep file references, implementation details and technical workflows |
 | User Guide (`.html`) | End Users | Beautiful, minimal documentation with practical examples |
 
+Each feature's docs live in their own folder, e.g. `/docs/hold-booking/`.
+
 ### Modifying existing features?
 
 Don't just change the code and disappear.
